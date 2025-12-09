@@ -46,6 +46,8 @@ Foco em resolver problemas reais do negócio com entregas rápidas e escaláveis
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielferreira2020\&layout=compact\&theme=tokyonight)
 
+![Profile Views](https://komarev.com/ghpvc/?username=danielferreira2020&color=blue)
+
 ---
 
 ## 📫 Contato
