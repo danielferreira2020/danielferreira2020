@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Futuristic GitHub stats card">
+  <style>
+    :root {
+      --bg:#071021;
+      --card:#0b1220;
+      --muted:#98b0d6;
+      --neon1:#2F80ED;
+      --neon2:#9b59ff;
+      --accent:#56CCF2;
+      --glass: rgba(255,255,255,0.03);
+    }
+    svg { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+    .bg { fill: var(--bg); }
+    .card { fill: linear-gradient(#0b1220,#071021); rx:18; }
+    .panel {
+      fill: url(#gradPanel);
+      stroke: rgba(255,255,255,0.04);
+      filter: drop-shadow(0 8px 24px rgba(2,8,23,0.6));
+      rx:16;
+    }
+    .title { fill: #e6eef8; font-size:18px; font-weight:700; }
+    .subtitle { fill: var(--muted); font-size:12px; }
+    .stat-num { fill: white; font-size:28px; font-weight:700; letter-spacing:0.6px; }
+    .stat-label { fill: var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:1px; }
+    .glow {
+      fill: none;
+      stroke-width:2;
+      stroke-linecap:round;
+      stroke: url(#neon);
+      filter: blur(6px);
+      opacity:0.9;
+    }
+    .bar-bg { fill: rgba(255,255,255,0.04); rx:8; }
+    .bar-fill {
+      fill: url(#neon);
+      rx:8;
+      transform-origin: 0 0;
+      transform: scaleX(0);
+      animation: grow 1.3s cubic-bezier(.2,.9,.3,1) forwards;
+    }
+    @keyframes grow {
+      to { transform: scaleX(1); }
+    }
+    .grid-line { stroke: rgba(255,255,255,0.02); stroke-width:1; }
+    .small { font-size:10px; fill:var(--muted); }
+    .badge { fill: rgba(255,255,255,0.04); stroke: rgba(255,255,255,0.03); rx:8; }
+    /* animated scanline */
+    .scan {
+      fill: url(#scanGrad);
+      opacity:0.12;
+      transform-origin: 50% 50%;
+      animation: scan 4s linear infinite;
+    }
+    @keyframes scan {
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(100%); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="gradPanel" x1="0" x2="1">
+      <stop offset="0" stop-color="#071021"/>
+      <stop offset="1" stop-color="#08142a"/>
+    </linearGradient>
+
+    <linearGradient id="neon" x1="0" x2="1">
+      <stop offset="0" stop-color="#2F80ED"/>
+      <stop offset="0.5" stop-color="#56CCF2"/>
+      <stop offset="1" stop-color="#9b59ff"/>
+    </linearGradient>
+
+    <linearGradient id="scanGrad" x1="0" x2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="100%" height="100%" class="bg"/>
+
+  <!-- subtle grid -->
+  <g opacity="0.06" transform="translate(0,0)">
+    <pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" class="grid-line"/>
+    </pattern>
+    <rect width="100%" height="100%" fill="url(#p)"/>
+  </g>
+
+  <!-- main card -->
+  <g transform="translate(28,20)">
+    <rect width="844" height="220" class="panel"/>
+
+    <!-- scanline -->
+    <rect x="0" y="-40" width="844" height="300" class="scan" />
+
+    <!-- header -->
+    <text x="28" y="36" class="title">Daniel Ferreira</text>
+    <text x="28" y="56" class="subtitle">Head de Data Science • Pipelines • GCP • Airflow</text>
+
+    <!-- right corner badges -->
+    <g transform="translate(640,18)">
+      <rect x="0" y="0" width="160" height="36" class="badge"/>
+      <text x="12" y="22" class="small" style="fill:#cfe1ff">GitHub</text>
+      <text x="128" y="22" class="small" style="fill:#56CCF2; font-weight:700; text-anchor:end">danielferreira2020</text>
+    </g>
+
+    <!-- stats row -->
+    <g transform="translate(28,80)">
+      <!-- Stat 1 -->
+      <g transform="translate(0,0)">
+        <text class="stat-num" x="0" y="28" id="repos-num">{{REPOS}}</text>
+        <text class="stat-label" x="0" y="46">Public Repos</text>
+      </g>
+
+      <!-- Stat 2 -->
+      <g transform="translate(170,0)">
+        <text class="stat-num" x="0" y="28" id="stars-num">{{STARS}}</text>
+        <text class="stat-label" x="0" y="46">Total Stars</text>
+      </g>
+
+      <!-- Stat 3 -->
+      <g transform="translate(340,0)">
+        <text class="stat-num" x="0" y="28" id="followers-num">{{FOLLOWERS}}</text>
+        <text class="stat-label" x="0" y="46">Followers</text>
+      </g>
+
+      <!-- Stat 4 (Top Lang) -->
+      <g transform="translate(520,0)">
+        <text class="stat-num" x="0" y="28" id="toplang">{{TOP_LANG}}</text>
+        <text class="stat-label" x="0" y="46">Top Language</text>
+      </g>
+    </g>
+
+    <!-- progress / skill bars (futuristic) -->
+    <g transform="translate(28,130)">
+      <text class="small" x="0" y="-6">Skill & contributions (visual)</text>
+
+      <!-- bar 1 -->
+      <rect x="0" y="8" width="760" height="14" class="bar-bg"/>
+      <!-- fill width as percent of 760 by editing width value below (e.g., width="540" => ~71%) -->
+      <rect x="0" y="8" width="540" height="14" class="bar-fill"/>
+
+      <!-- separators -->
+      <g transform="translate(0,38)">
+        <text class="small" x="0" y="12" style="fill:#cfe1ff">Python</text>
+        <text class="small" x="720" y="12" style="text-anchor:end; fill:#56CCF2">71%</text>
+      </g>
+
+      <!-- second bar -->
+      <rect x="0" y="60" width="360" height="12" class="bar-bg"/>
+      <rect x="0" y="60" width="260" height="12" class="bar-fill" style="animation-delay:0.1s"/>
+      <g transform="translate(0,86)">
+        <text class="small" x="0" y="12" style="fill:#cfe1ff">Google Cloud</text>
+        <text class="small" x="720" y="12" style="text-anchor:end; fill:#56CCF2">72%</text>
+      </g>
+
+      <!-- third bar -->
+      <rect x="0" y="112" width="360" height="12" class="bar-bg"/>
+      <rect x="0" y="112" width="200" height="12" class="bar-fill" style="animation-delay:0.2s"/>
+      <g transform="translate(0,138)">
+        <text class="small" x="0" y="12" style="fill:#cfe1ff">Airflow</text>
+        <text class="small" x="720" y="12" style="text-anchor:end; fill:#56CCF2">55%</text>
+      </g>
+    </g>
+
+    <!-- subtle neon ornament -->
+    <g transform="translate(730,140)">
+      <path d="M0 0 C20 -30, 60 -30, 80 0" stroke="url(#neon)" stroke-width="3" fill="none" stroke-linecap="round" class="glow"/>
+      <circle cx="0" cy="0" r="4" fill="#2F80ED"/>
+      <circle cx="80" cy="0" r="4" fill="#9b59ff"/>
+    </g>
+
+    <!-- bottom small text / link -->
+    <text x="28" y="210" class="small">Generated for profile • Use in README: <tspan style="fill:#56CCF2; font-weight:700">./assets/futuristic-stats.svg</tspan></text>
+  </g>
+</svg>
