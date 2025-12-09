@@ -36,8 +36,6 @@ Foco em resolver problemas reais do negócio com entregas rápidas e escaláveis
 * 🔹 **Integração BigQuery + GCP** — modelos de ingestão e otimização de custos.
 * 🔹 **Automação de ETLs (PostgreSQL + APIs)** — rotinas de carga e monitoramento.
 
-(Coloque links para cada projeto abaixo, por exemplo: `[etl-pipelines](https://github.com/danielferreira2020/etl-pipelines)`)
-
 ---
 
 ## 📊 GitHub Stats
