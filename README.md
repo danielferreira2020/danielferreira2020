@@ -42,16 +42,18 @@ Foco em resolver problemas reais do negócio com entregas rápidas e escaláveis
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=danielferreira2020&show_icons=true&theme=tokyonight)
+<!-- Seguidores -->
+![Followers](https://img.shields.io/github/followers/danielferreira2020?label=Followers&style=flat-square)
 
+<!-- Total de repositórios públicos -->
+![Repos](https://img.shields.io/github/repos/danielferreira2020?label=Repos&style=flat-square)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielferreira2020\&layout=compact\&theme=tokyonight)
+<!-- Stars totais (por repositório específico ex: repo-name) -->
+![Stars](https://img.shields.io/github/stars/danielferreira2020/REPO_NAME?style=social)
 
-![Profile Views](https://komarev.com/ghpvc/?username=danielferreira2020&color=blue)
+<!-- Último commit em um repo -->
+![Last commit](https://img.shields.io/github/last-commit/danielferreira2020/REPO_NAME?style=flat-square)
 
-![GitHub Stats](https://img.shields.io/badge/Commits-1500+-blue)
-![GitHub Stats](https://img.shields.io/badge/Repos-20+-green)
-![GitHub Stats](https://img.shields.io/badge/Linguagem%20Principal-Python-yellow)
 
 ---
 
