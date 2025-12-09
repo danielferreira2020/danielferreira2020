@@ -74,9 +74,9 @@ Abaixo descrevo as animações que já sugeri no README e como usar/alterar cada
 
 ## 📫 Contato
 
-📧 seu_email@email.com
+📧 el.daniel.soares@gmail.com
 
-💼 [LinkedIn](https://www.linkedin.com/in/seu-linkedin)
+💼 [LinkedIn](www.linkedin.com/in/daniel-ferreira-201261221)
 
 ---
 
