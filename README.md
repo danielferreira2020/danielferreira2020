@@ -36,15 +36,15 @@ Foco em resolver problemas reais do negócio com entregas rápidas e escaláveis
 * 🔹 **Integração BigQuery + GCP** — modelos de ingestão e otimização de custos.
 * 🔹 **Automação de ETLs (PostgreSQL + APIs)** — rotinas de carga e monitoramento.
 
-(Coloque links para cada projeto abaixo, por exemplo: `[etl-pipelines](https://github.com/SEU_USUARIO/etl-pipelines)`)
+(Coloque links para cada projeto abaixo, por exemplo: `[etl-pipelines](https://github.com/danielferreira2020/etl-pipelines)`)
 
 ---
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=danielferreira\&show_icons=true\&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=danielferreira2020\&show_icons=true\&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielferreira\&layout=compact\&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielferreira2020\&layout=compact\&theme=tokyonight)
 
 ---
 
@@ -73,7 +73,7 @@ Abaixo descrevo as animações que já sugeri no README e como usar/alterar cada
    * Você pode criar um pequeno SVG com animação CSS (ex.: barra de skills animada) e referenciá-lo como imagem bruta hospedada no próprio repositório (`raw`) ou como arquivo SVG em `assets/skill-bar.svg`.
    * Prós: vetorial (leve) e escalável.
 
-4. **Animação de contributions (efeitos)**
+4. **Animação de contributions (efeitos)**n
 
    * Existem projetos open-source que geram efeitos sobre o heatmap de contribuições (por exemplo, "contribution-snake"), mas exigem usar ações ou gerar imagens externas animadas. Posso ajudar a configurar se quiser.
 
@@ -83,23 +83,13 @@ Abaixo descrevo as animações que já sugeri no README e como usar/alterar cada
 
 📧 [el.daniel.soares@gmail.com](mailto:el.daniel.soares@gmail.com)
 
-💼 [LinkedIn](www.linkedin.com/in/daniel-ferreira-201261221)
+💼 [LinkedIn](https://www.linkedin.com/in/daniel-ferreira-201261221)
 
 ---
 
 ## Como usar este README
 
-1. Crie um repositório com o **mesmo nome do usuário** (ex.: `danielferreira`).
+1. Crie um repositório com o **mesmo nome do usuário** (ex.: `danielferreira2020`).
 2. Coloque este `README.md` na raiz do repositório.
 3. (Opcional) Crie a pasta `assets/` e coloque imagens animadas (GIF/SVG) mencionadas.
-4. Substitua os placeholders (`seu_email`, `seu-linkedin`, `SEU_USUARIO`) pelos seus dados reais.
-
----
-
-Se desejar, eu:
-
-* **Adiciono um GIF animado** pronto (terminal, coding, ou logo animado) e já coloco na pasta `assets/` do README; ou
-* **Gero um SVG animado** customizado para suas skills; ou
-* **Faço a versão em inglês**.
-
-Diga qual opção prefere e eu gero os assets e atualizo o README aqui mesmo.
+4. Substitua os placeholders pelos seus dados reais.
