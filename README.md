@@ -42,7 +42,8 @@ Foco em resolver problemas reais do negócio com entregas rápidas e escaláveis
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=danielferreira2020\&show_icons=true\&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=danielferreira2020&show_icons=true&theme=tokyonight)
+
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=danielferreira2020\&layout=compact\&theme=tokyonight)
 
