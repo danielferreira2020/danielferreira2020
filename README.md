@@ -48,6 +48,10 @@ Foco em resolver problemas reais do negócio com entregas rápidas e escaláveis
 
 ![Profile Views](https://komarev.com/ghpvc/?username=danielferreira2020&color=blue)
 
+![GitHub Stats](https://img.shields.io/badge/Commits-1500+-blue)
+![GitHub Stats](https://img.shields.io/badge/Repos-20+-green)
+![GitHub Stats](https://img.shields.io/badge/Linguagem%20Principal-Python-yellow)
+
 ---
 
 ## 📫 Contato
