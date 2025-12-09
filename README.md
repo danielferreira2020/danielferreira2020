@@ -1,8 +1,8 @@
-# 👋 Olá! Eu sou o Daniel Ferreira
+# Daniel Ferreira
 
 ### Head de Data Science | Engenharia & Analytics | Python • GCP • SQL • Airflow
 
-Sou Head de Data Science na **Pacto Soluções**, atuando na construção de pipelines ponta a ponta,
+Head de Data Science na **Pacto Soluções**, atuando na construção de pipelines ponta a ponta,
 organização de dados com governança e entrega de análises acionáveis para decisões estratégicas.
 Foco em resolver problemas reais do negócio com entregas rápidas e escaláveis.
 
