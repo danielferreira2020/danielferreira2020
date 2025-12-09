@@ -44,6 +44,8 @@ Foco em resolver problemas reais do negócio com entregas rápidas e escaláveis
 
 ![GitHub Stats](./assets/stats.png)
 
+![GitHub Stats](./assets/futuristic-stats.svg)
+
 <!-- Seguidores -->
 ![Followers](https://img.shields.io/github/followers/danielferreira2020?label=Followers&style=flat-square)
 
