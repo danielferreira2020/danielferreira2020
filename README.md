@@ -58,13 +58,14 @@
 
 ## 🧩 Como eu penso (arquitetura de dados)
 
+```md
 ```mermaid
 flowchart LR
-  A[Fontes: App / ERP / API] --> B[Ingestão]
-  B --> C[Staging / Raw]
-  C --> D[Transformações (ELT/DBT-like)]
-  D --> E[Camada Curada / Modelo Dimensional]
-  E --> F[BI: Power BI / Looker]
-  E --> G[Produtos de Dados / ML]
-  D --> H[Qualidade + Observabilidade]
+  A["Fontes: App, ERP, API"] --> B["Ingestao"]
+  B --> C["Staging / Raw"]
+  C --> D["Transformacoes (ELT) - dbt"]
+  D --> E["Curado - Modelo Dimensional"]
+  E --> F["BI: Power BI / Looker"]
+  E --> G["Produtos de Dados / ML"]
+  D --> H["Qualidade + Observabilidade"]
   H --> D
