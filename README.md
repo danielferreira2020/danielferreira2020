@@ -58,7 +58,6 @@
 
 ## 🧩 Como eu penso (arquitetura de dados)
 
-```md
 ```mermaid
 flowchart LR
   A["Fontes: App, ERP, API"] --> B["Ingestao"]
