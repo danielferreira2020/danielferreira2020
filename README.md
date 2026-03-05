@@ -1,63 +1,70 @@
-# Daniel Ferreira
+<!-- =========================================================
+  README - Daniel Ferreira | Data Engineer / Analytics Engineer
+  Tema: tech + moderno + interativo
+========================================================== -->
 
-### Data Science | Engenharia & Analytics | Python • GCP • SQL • Airflow
+<h1 align="center">Daniel Ferreira</h1>
+<p align="center">
+  <b>Data Engineer • Analytics Engineer • Data Science (aplicado)</b><br/>
+  Conecto <b>engenharia</b>, <b>analytics</b> e <b>negócio</b> para transformar perguntas em decisões práticas.
+</p>
 
-Head de Data Science na **Pacto Soluções**, atuando na construção de pipelines ponta a ponta,
-organização de dados com governança e entrega de análises acionáveis para decisões estratégicas.
-Foco em resolver problemas reais do negócio com entregas rápidas e escaláveis.
+<p align="center">
+  <a href="https://www.linkedin.com/in/daniel-ferreira-201261221/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:SEU_EMAIL_AQUI">
+    <img alt="Email" src="https://img.shields.io/badge/Email-1f2937?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <img alt="Location" src="https://img.shields.io/badge/Goi%C3%A2nia%2C%20BR-111827?style=for-the-badge&logo=google-maps&logoColor=white"/>
+</p>
 
----
-
-<!-- Typing animation (READ-ONLY image gerada externamente) -->
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&size=24\&pause=2000\&color=2F80ED\&background=ffffff00\&lines=Head+de+Data+Science;Engenharia+de+Pipelines;Governança+de+Dados;Machine+Learning+aplicado)
-
----
-
-## 🚀 Tech Stack
-
-![Header GIF](./assets/header.gif)
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python\&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud\&logoColor=white)
-![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?logo=apacheairflow\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql\&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-1A73E8?logo=googlebigquery\&logoColor=white)
-![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?logo=looker\&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi\&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker\&logoColor=white)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SEU_USERNAME&style=flat-square&color=0ea5e9" alt="views" />
+  <img src="https://img.shields.io/github/followers/SEU_USERNAME?style=flat-square&color=22c55e" alt="followers" />
+  <img src="https://img.shields.io/github/stars/SEU_USERNAME?style=flat-square&color=f59e0b" alt="stars" />
+</p>
 
 ---
 
-## 📌 Projetos em Destaque
+## 🔥 O que eu faço (sem enrolação)
 
-* 🔹 **Pipelines Airflow 3.x com DAGs Dinâmicos** — automação e versionamento de DAGs.
-* 🔹 **Governança de Dados e Métricas de Negócio** — modelagem e padronização de métricas.
-* 🔹 **Integração BigQuery + GCP** — modelos de ingestão e otimização de custos.
-* 🔹 **Automação de ETLs (PostgreSQL + APIs)** — rotinas de carga e monitoramento.
+- **Engenharia de Dados ponta a ponta**: ingestão → transformação → governança → métricas → consumo (BI/Apps).
+- **Pipelines e automação**: reduz retrabalho, padroniza informação e dá previsibilidade com custo sob controle.
+- **Analytics pragmático**: modelos dimensionais, métricas confiáveis e narrativa executiva que o time usa no dia a dia.
 
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](./assets/stats.png)
-
-<!-- Total de repositórios públicos -->
-![Repos](https://img.shields.io/github/repos/danielferreira2020?label=Repos&style=flat-square)
-
-<!-- Stars totais (por repositório específico ex: repo-name) -->
-![Stars](https://img.shields.io/github/stars/danielferreira2020/REPO_NAME?style=social)
-
-<!-- Último commit em um repo -->
-![Last commit](https://img.shields.io/github/last-commit/danielferreira2020/REPO_NAME?style=flat-square)
-
+> *Foco em resolver problema real: tempo, clareza, confiança e entrega incremental.*
 
 ---
 
-## 📫 Contato
+## 🧠 Stack (principal)
 
-📧 [el.daniel.soares@gmail.com](mailto:el.daniel.soares@gmail.com)
+<p>
+  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-111827?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Airflow-111827?style=for-the-badge&logo=apacheairflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GCP-111827?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power%20BI-111827?style=for-the-badge&logo=powerbi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Looker%20Studio-111827?style=for-the-badge&logo=google&logoColor=white"/>
+</p>
 
-💼 [LinkedIn](https://www.linkedin.com/in/daniel-ferreira-201261221)
+**Também uso no dia a dia**
+- Modelagem: **Star Schema / Dimensional** (fato/dimensão), métricas e governança.
+- Observabilidade: logging, validações, SLAs, “data quality checks”.
+- Integração: APIs, arquivos (CSV/Parquet), jobs e automações.
 
 ---
+
+## 🧩 Como eu penso (arquitetura de dados)
+
+```mermaid
+flowchart LR
+  A[Fontes: App / ERP / API] --> B[Ingestão]
+  B --> C[Staging / Raw]
+  C --> D[Transformações (ELT/DBT-like)]
+  D --> E[Camada Curada / Modelo Dimensional]
+  E --> F[BI: Power BI / Looker]
+  E --> G[Produtos de Dados / ML]
+  D --> H[Qualidade + Observabilidade]
+  H --> D
